@@ -1,4 +1,4 @@
-#Data Visualization Projects - Visualize Data with a Bar Chart
+# Data Visualization Projects - Visualize Data with a Bar Chart
 
 **Objective**: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/GrZVaM.
 
