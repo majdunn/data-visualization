@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+}
+
+#tooltip {
+  position: absolute;
+  background: darkslategray;
+  color: white;
+  padding: 20px;
+  border: 1px #333 solid;
+  border-radius: 5px;
+  opacity: 0;
+}
+
+.county-borders {
+  fill: none;
+  stroke: rgb(133, 133, 133);
+  stroke-width: 0.5px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  pointer-events: none;
+}
+
+.state-borders {
+  fill: none;
+  stroke: rgb(0, 0, 0);
+  stroke-width: 0.5px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  pointer-events: none;
+}
+
+.nation-borders {
+    fill: none;
+    stroke: rgb(0, 0, 0);
+    stroke-width: 1px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    pointer-events: none;
+  }
+
+.selected {
+  fill: red;
+}

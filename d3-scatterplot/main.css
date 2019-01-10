@@ -1,0 +1,14 @@
+body {
+text-align: center;
+display: flex;
+justify-content: center;
+}
+
+#chart {
+    position: absolute;
+    margin: 0 auto;
+    padding: 4px;
+    border: 0px solid #333;
+    color: #333;
+}
+
