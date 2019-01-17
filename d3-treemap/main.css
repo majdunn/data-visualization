@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+}
+
+#tooltip {
+  position: absolute;
+  background: darkslategray;
+  color: white;
+  padding: 20px;
+  border: 1px #333 solid;
+  border-radius: 5px;
+  opacity: 0;
+}
+
+rect {
+  opacity: 1;
+  stroke: white;
+}
+
+.tile-text {
+  overflow: hidden;
+}
+
+text {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  fill: black;
+  font-size: 10px;
+  box-sizing: border-box;
+  line-height: 1em;
+  overflow: hidden;
+  position: absolute;
+  white-space: pre;
+}
+
